@@ -1,0 +1,34 @@
+# zsh
+alias zc="vim ~/.zshrc"
+alias zs="source ~/.zshrc"
+alias ohmyzsh="vim ~/.oh-my-zsh"
+alias zcode="code ~/.zshrc"
+alias za="vim ~/.zsh_aliases"
+# yarn
+alias yrc="yarn release:change"
+alias yt="yarn test"
+alias yd="yarn dev"
+alias yds="yarn dev:start"
+alias yb="yarn build"
+alias yl="yarn lint"
+alias yi="yarn install"
+# git
+alias ch="git checkout master"
+alias grb="git rebase -i HEAD~2"
+alias grbm="git rebase -i master"
+alias gitbranch="git symbolic-ref --short HEAD"
+alias gs="git status"
+alias gaa="git add ."
+alias gpl="git pull"
+alias gps="git push"
+alias gch="git cherry -v master"
+# nvm
+alias sourcenvm="source ~/.nvm/nvm.sh"
+# apps
+alias ws='open -a /Applications/WebStorm.app'
+alias fork="open -a Fork ."
+alias iterm="open -a iTerm ."
+alias vsc="code ."
+# system
+alias ls="ls -la"
+alias c="clear"
